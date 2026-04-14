@@ -1,16 +1,35 @@
-# React + Vite
+# Frontend Assignment - Product Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo
+https://shooping-website-five.vercel.app/
+## 📌 Overview
+This is a responsive web application built using React that fetches and displays products from a public API. Users can browse and search for products in real-time.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Fetch and display products from API
+- Search functionality (real-time filtering)
+- Responsive grid layout
+- Loading and error handling states
+- Clean UI with modern styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- CSS3
+- Fake Store API
+- Vercel (deployment)
 
-## React Compiler
+## 📂 Project Structure
+src/
+  components/
+    ProductCard.jsx
+    ProductList.jsx
+    SearchBar.jsx
+  App.jsx
+  main.jsx
+  index.css
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup Instructions
+```bash
+npm install
+npm run dev
