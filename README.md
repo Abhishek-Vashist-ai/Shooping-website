@@ -1,11 +1,14 @@
 # Frontend Assignment - Product Explorer
 
-## 🔗 Live Demo
+##  Live Demo
 https://shooping-website-five.vercel.app/
-## 📌 Overview
+
+## Video Recording
+https://drive.google.com/file/d/15yWIBjC8ji4d4rbYIciysElJNM16U5-K/view?usp=sharing
+## Overview
 This is a responsive web application built using React that fetches and displays products from a public API. Users can browse and search for products in real-time.
 
-## ✨ Features
+##  Features
 - Fetch and display products from API
 - Search functionality (real-time filtering)
 - Responsive grid layout
@@ -19,7 +22,7 @@ This is a responsive web application built using React that fetches and displays
 - Fake Store API
 - Vercel (deployment)
 
-## 📂 Project Structure
+##  Project Structure
 src/
   components/
     ProductCard.jsx
@@ -29,7 +32,7 @@ src/
   main.jsx
   index.css
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 ```bash
 npm install
 npm run dev
