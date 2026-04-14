@@ -14,8 +14,9 @@ function ProductCard({ product }) {
       <p className="price">₹ {product.price}</p>
 
       <p className="desc">
-        {product.description.slice(0, 80)}...
+        {product.description.slice(0, 60)}...
       </p>
+      <p>⭐ {product.rating?.rate}</p>
     </div>
   );
 }
